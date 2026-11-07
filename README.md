@@ -55,6 +55,5 @@ continue listening.
 - [x] Continuous input loop and clean exit
 - [x] Input normalization and more than five response intents
 - [x] Dictionary lookup and fallback response
-- [ ] Create the empty public GitHub repository `DecodeLabs-Internship` when
-      signed in to the GitHub account; keep this project local until mentors
-      provide upload instructions.
+- [x] Created the public GitHub repository `DecodeLabs-Internship` and pushed
+      the Project 1 files.
