@@ -1,65 +1,21 @@
-# DecodeLabs AI Internship - Project 1
+# DecodeLabs AI Internship Projects
 
-## Rule-Based AI Chatbot
+This repository contains the AI internship project work.
 
-A small command-line chatbot built with Python. It uses explicit rules and a
-dictionary of responses; it does not call an online AI service.
+## Project 1: Rule-Based AI Chatbot
 
-## Requirements
+The chatbot and its instructions are in [`project-1-rule-based-chatbot`](project-1-rule-based-chatbot/README.md).
 
-- Python 3.10 or newer
-- No third-party packages
-
-## Run it
-
-Open a terminal in this folder and run:
+To run it from the repository root:
 
 ```powershell
+cd project-1-rule-based-chatbot
 py chatbot.py
 ```
-
-If the `py` command is unavailable, use:
-
-```powershell
-python chatbot.py
-```
-
-## Features
-
-- A continuous `while` loop for conversation
-- Case, surrounding whitespace, punctuation, and repeated-space normalization
-- Eight response intents: greetings, identity, capabilities, wellbeing, AI,
-  machine learning, project information, gratitude, plus a joke response
-- A fallback for messages the bot does not recognize
-- Clean exit with `bye`, `goodbye`, `exit`, or `quit`
-- An explicit `if`/`else` response path and dictionary `.get()` lookup
-
-## Example
-
-```text
-LogicBot: Hello! I'm LogicBot. Type 'help' to see what I can answer.
-LogicBot: Type 'bye', 'goodbye', 'exit', or 'quit' to end the chat.
-You:   HELLO!!
-LogicBot: Hi there! How can I help you today?
-You: What is AI?
-LogicBot: AI is the field of building computer systems that perform tasks associated with human intelligence.
-You: exit
-LogicBot: Goodbye! It was nice chatting with you.
-```
-
-Try an unrecognized question too; the bot will show its fallback response and
-continue listening.
-
-## Project checklist
-
-- [x] Continuous input loop and clean exit
-- [x] Input normalization and more than five response intents
-- [x] Dictionary lookup and fallback response
-- [x] Created the public GitHub repository `DecodeLabs-Internship` and pushed
-      the Project 1 files.
 
 ## Project 2: Iris Flower Classification
 
 The KNN classification project is in [`project-2-iris-classification`](project-2-iris-classification/README.md).
-It loads the Iris dataset, uses a stratified train/test split, chooses K with
-cross-validation on the training set, and reports test metrics.
+It loads and explores the Iris dataset, compares K values using training-only
+cross-validation, then reports accuracy, F1, and a confusion matrix on held-out
+test data.
