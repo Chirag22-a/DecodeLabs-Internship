@@ -57,3 +57,9 @@ continue listening.
 - [x] Dictionary lookup and fallback response
 - [x] Created the public GitHub repository `DecodeLabs-Internship` and pushed
       the Project 1 files.
+
+## Project 2: Iris Flower Classification
+
+The KNN classification project is in [`project-2-iris-classification`](project-2-iris-classification/README.md).
+It loads the Iris dataset, uses a stratified train/test split, chooses K with
+cross-validation on the training set, and reports test metrics.
