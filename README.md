@@ -19,3 +19,9 @@ The KNN classification project is in [`project-2-iris-classification`](project-2
 It loads and explores the Iris dataset, compares K values using training-only
 cross-validation, then reports accuracy, F1, and a confusion matrix on held-out
 test data.
+
+## Project 3: Tech Stack Recommender
+
+The recommendation project is in [`project-3-tech-stack-recommender`](project-3-tech-stack-recommender/README.md).
+It ranks career paths and example tools from a skills catalog using TF-IDF and
+cosine similarity.
