@@ -1,0 +1,16 @@
+Recognized text:
+DECODELABS OCR DEMO
+Artificial Intelligence Internship
+
+Project 4: Optical Character Recognition
+
+This image is a sample input for the OCR project.
+
+The script converts it to grayscale and reduces noise.
+Adaptive thresholding separates letters from the page.
+Tesseract reads the printed text and reports confidence.
+High-contrast printed text helps demonstrate the pipeline.
+
+Average word confidence: 95.5%
+Required minimum: 80.0%
+Validation: PASS

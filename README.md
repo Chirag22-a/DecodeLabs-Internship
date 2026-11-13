@@ -25,3 +25,9 @@ test data.
 The recommendation project is in [`project-3-tech-stack-recommender`](project-3-tech-stack-recommender/README.md).
 It ranks career paths and example tools from a skills catalog using TF-IDF and
 cosine similarity.
+
+## Project 4: Image and Text Recognition
+
+The OCR project is in [`project-4-image-text-recognition`](project-4-image-text-recognition/README.md).
+It preprocesses an image with OpenCV, extracts printed text with Tesseract, and
+reports confidence with an annotated visual result.
